@@ -26,7 +26,7 @@ class AuthService {
     }
   }
 
-  //SIGNIN
+  
   Future signInWithEmailAndPassword(String email, String password) async {
     try {
       AuthResult result = await _auth.signInWithEmailAndPassword(
@@ -39,7 +39,7 @@ class AuthService {
     }
   }
 
-  //REGISTER
+  
   Future registerWithEmailAndPassword(String email, String password) async {
     try {
       AuthResult result = await _auth.createUserWithEmailAndPassword(
@@ -52,7 +52,7 @@ class AuthService {
     }
   }
 
-  //SIGNOUT HOGA YAHASE
+  
   Future signOut() async {
     try {
       return await _auth.signOut();
