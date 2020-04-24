@@ -1,4 +1,3 @@
-//import 'package:dontstart/models/user.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:Quizo/models/user.dart';
 
@@ -11,7 +10,7 @@ class AuthService {
 
   Stream<User> get user {
     return _auth.onAuthStateChanged
-        //.map((FirebaseUser user) => _userFromFirebaseUser(user));
+        
         .map(_userFromFirebaseUser);
   }
 
