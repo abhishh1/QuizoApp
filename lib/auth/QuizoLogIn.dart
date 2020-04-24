@@ -205,6 +205,7 @@ class _QuizoLogInState extends State<QuizoLogIn> {
                       onPressed: _changeOpacity,
                     ),
                   ),
+                  //In case of adding functionality of social media plugins
                   /*SizedBox(
                     height: 0.0,width: 180.0,
                     child: Divider(color: Colors.black,)),
