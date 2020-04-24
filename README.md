@@ -1,6 +1,5 @@
 # quizo
-
-A new Flutter project.
+An interactive quiz application.
 
 ## Getting Started
 
