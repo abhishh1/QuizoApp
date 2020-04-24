@@ -1,0 +1,84 @@
+name: Quizo
+description: An interactive quiz app.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  
+  font_awesome_flutter: ^8.7.0
+  firebase_core: ^0.4.4
+  firebase_auth: ^0.15.5+3
+  eva_icons_flutter: ^2.0.0
+  flutter_spinkit: "^4.1.2"
+  flutter_launcher_icons: ^0.7.4
+  page_transition: ^1.1.5
+  audioplayers: ^0.15.1
+
+flutter_icons:
+  image_path: "icons/logo.png"
+  android: true
+  ios: true
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter:
+
+  
+  uses-material-design: true
+  fonts:
+    - family: Prestage
+      fonts:
+        - asset: fonts/Prestage.ttf
+
+    - family: Rockdiz
+      fonts:
+        - asset: fonts/Rockdiz.ttf
+    
+    - family: Gutter
+      fonts:
+        - asset: fonts/Gutter.ttf
+    
+    - family: Bangers
+      fonts:
+        - asset: fonts/Bangers.ttf
+
+  assets:
+
+    - assets/splash.jpg
+    - icons/confused.png
+    - icons/book.png
+    - icons/login.png
+    - assets/loginback1.jpg
+    - icons/books.png
+    - assets/mainback.jpg
+    - assets/down.jpg
+    - assets/new.jpg
+    - assets/about.jpg
+    - assets/upp.jpg
+    - icons/trophy.png
+    - assets/easyback1.png
+    - assets/success.mp3
+    - assets/error.mp3
+    - icons/gift.png
+    - icons/gift1.png
+    - icons/gift2.png
+    - icons/gift4.png
+    - icons/gift5.png
+    - icons/gift6.png
+    - icons/gift7.png
+    - icons/gift8.png
+    - icons/gift9.png
+    - assets/gifts.jpg
+    - icons/logo.png
+    
